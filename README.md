@@ -1,5 +1,3 @@
-# Default Python Kernels for Jupyter Notebooks
-
 This extension automatically selects the active Python Environment as a Kernel for a Jupyter Notebook opened in VS Code.
 
 This is useful when you have multiple Python environments and want to use the one that is currently selected in the Python extension, by passing the Kernel Picker entirely.
