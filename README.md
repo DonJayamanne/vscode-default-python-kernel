@@ -8,3 +8,4 @@ This is useful when you have multiple Python environments and want to use the on
     * I.e. if you change the active Python environment after opening a notebook, the Kernel will not be changed.
     * Or if you open a notebook and then change the active Python environment, the Kernel will not be changed.
 * Similarly if you change the kernel manually, the kernel will never be changed automatically again.
+* If working on non-Python kernels in other workspaces, the suggestion is to disable this extension in those workspaces.
