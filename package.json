@@ -1,18 +1,33 @@
 {
     "name": "vscode-default-python-kernel",
-    "displayName": "vscode-default-python-kernel",
-    "description": "Pre-selects a Python Kernel in a Notebook",
+    "displayName": "Default Python Kernels for Jupyter Notebooks",
+    "description": "Pre-selects the active Python Environment as the Python Kernel in all Notebook",
     "publisher": "donjayamanne",
     "author": {
         "name": "Don Jayamanne"
     },
     "license": "MIT",
     "version": "0.0.1",
+    "homepage": "https://github.com/donJayamanne/vscode-default-python-kernel",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/donJayamanne/vscode-default-python-kernel"
+    },
+    "bugs": {
+        "url": "https://github.com/donJayamanne/vscode-default-python-kernel/issues"
+    },
+    "qna": "https://github.com/donJayamanne/vscode-default-python-kernel/issues",
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#1e415e",
+        "theme": "dark"
+    },
     "engines": {
         "vscode": "^1.86.0"
     },
     "categories": [
-        "Other"
+        "Data Science",
+        "Notebooks"
     ],
     "activationEvents": [
         "onNotebook:jupyter-notebook"
@@ -22,14 +37,7 @@
         "ms-toolsai.jupyter"
     ],
     "main": "./dist/extension.js",
-    "contributes": {
-        "commands": [
-            {
-                "command": "vscode-default-python-kernel.helloWorld",
-                "title": "Hello World"
-            }
-        ]
-    },
+    "contributes": {},
     "scripts": {
         "vscode:prepublish": "npm run package",
         "compile": "webpack",
